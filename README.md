@@ -33,16 +33,16 @@ Note: You can also include multiple directories inside the array.
 
 ### Custom dependencies
 What if you need to share code, but don't wish to publish packages in NPM Registry?
-You can use the Custom Dependancies feature.
+You can use the Custom Dependencies feature.
 
-1. Create a directory(e.g 'your_local_dependancies') in your codebase to store each local dependency(library) code. Create directories for each of the dependencies with a index.js inside, as shown below.
+1. Create a directory(e.g 'your_local_dependencies') in your codebase to store each local dependency(library) code. Create directories for each of the dependencies with a index.js inside, as shown below.
     ```
-    __/your_local_dependancies
+    __/your_local_dependencies
         |__dependency-a
             |__index.js
         |__dependency-b
             |__index.js   
-            |__package.json // Optional if you have other npm dependancies
+            |__package.json // Optional if you have other npm dependencies
     ```
 
     e.g of index.js inside dependency-a
@@ -70,13 +70,13 @@ You can use the Custom Dependancies feature.
     var gulpDi = require('gulp-dependency-install');
 
     gulp.task('npm-install', function () {
-        gulpDi.init('<your_local_dependancies-directory>'); // Optionally initialize the directory where custom dependencies resides
+        gulpDi.init('<your_local_dependencies-directory>'); // Optionally initialize the directory where custom dependencies resides
         return gulpDi.install(['<your-directory>']);
     });
     ```
     Open a shell/commandline and run the followig command `gulp npm-install`
     
-    Note: This executes 'npm install' for all the package.json files, installing NPM dependencies from NPM Registry and copying the custom dependancies from 'your_local_dependancies' directory to the respective 'node_modules' directory..
+    Note: This executes 'npm install' for all the package.json files, installing NPM dependencies from NPM Registry and copying the custom dependencies from 'your_local_dependencies' directory to the respective 'node_modules' directory..
     
 4. Finally in your code requrie the dependency similar in using a module from NPM Registry, as shown below.
     ```javascript
