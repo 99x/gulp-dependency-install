@@ -1,5 +1,4 @@
 # gulp-dependency-install
-
 [![Join the chat at https://gitter.im/99xt/gulp-dependency-install](https://badges.gitter.im/99xt/gulp-dependency-install.svg)](https://gitter.im/99xt/gulp-dependency-install?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![npm version](https://badge.fury.io/js/gulp-dependency-install.svg)](https://badge.fury.io/js/gulp-dependency-install)
 [![license](https://img.shields.io/npm/l/gulp-dependency-install.svg)](https://www.npmjs.com/package/gulp-dependency-install)

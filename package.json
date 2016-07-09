@@ -1,6 +1,6 @@
 {
     "name": "gulp-dependency-install",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "This gulp plugin provides a simple API to install dependencies in multiple nested package.json files. It also allows to define custom local dependencies inside package.json",
     "main": "index.js",
     "scripts": {
