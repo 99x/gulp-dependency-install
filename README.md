@@ -70,7 +70,7 @@ You can use the Custom Dependancies feature.
     var gulpDi = require('gulp-dependency-install');
 
     gulp.task('npm-install', function () {
-        gulpDi.init('your_local_dependancies'); // Optionally initialize the directory where custom dependencies resides
+        gulpDi.init('<your_local_dependancies-directory>'); // Optionally initialize the directory where custom dependencies resides
         return gulpDi.install(['<your-directory>']);
     });
     ```
