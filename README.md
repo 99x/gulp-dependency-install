@@ -2,7 +2,7 @@
 [![npm version](https://badge.fury.io/js/gulp-dependency-install.svg)](https://badge.fury.io/js/gulp-dependency-install)
 [![license](https://img.shields.io/npm/l/gulp-dependency-install.svg)](https://www.npmjs.com/package/gulp-dependency-install)
 
-This gulp plugin provides commands to install npm dependencies in multiple package.json files with a single command. It also allows to define custom local dependencies inside package.json.
+This gulp plugin provides simple API to install dependencies in multiple nested package.json files. It also allows to define custom local dependencies inside package.json.
 
 ## Installation
 To include gulp-dependency-install in your project use

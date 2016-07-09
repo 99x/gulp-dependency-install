@@ -1,7 +1,7 @@
 {
     "name": "gulp-dependency-install",
-    "version": "0.0.4",
-    "description": "This gulp plugin provides commands to install npm dependencies in multiple package.json files with a single command. It also allows to define custom local dependencies inside package.json.",
+    "version": "0.0.5",
+    "description": "This gulp plugin provides simple API to install dependencies in multiple nested package.json files. It also allows to define custom local dependencies inside package.json",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
