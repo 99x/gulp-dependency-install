@@ -5,7 +5,7 @@
 This gulp plugin provides commands to install npm dependencies in multiple package.json files with a single command. It also allows to define custom local dependencies inside package.json.
 
 ## Installation
-To include dependency-install in your project use
+To include gulp-dependency-install in your project use
 `npm install gulp-dependency-install --save`
 
 ## Usage
