@@ -1,6 +1,6 @@
 'use strict';
 
-var gulpDi = require('gulp-dependency-install'),
+var gulpDi = require('dependency-install'),
     args = require('yargs').argv;
 
 var init = function (path) {
