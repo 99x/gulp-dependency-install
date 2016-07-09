@@ -33,7 +33,7 @@
     },
     "homepage": "https://github.com/99xt/gulp-dependency-install#readme",
     "dependencies": {
-        "dependency-install": "^0.0.8",
+        "dependency-install": "^0.0.9",
         "yargs": "^4.7.1"
     }
 }
