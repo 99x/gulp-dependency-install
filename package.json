@@ -1,0 +1,39 @@
+{
+    "name": "gulp-dependency-install",
+    "version": "0.0.1",
+    "description": "This gulp plugin provides commands to install npm dependencies in multiple package.json files with a single command. It also allows to define custom local dependencies inside package.json.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/99xt/gulp-dependency-install.git"
+    },
+    "keywords": [
+    "node",
+    "dependency",
+    "management",
+    "npm",
+    "install",
+    "shared",
+    "gulp",
+    "gulp install",
+    "install all",
+    "npm install",
+    "local",
+    "local dependencies",
+    "custom",
+    "custom dependencies"
+  ],
+    "author": "99xtechnology.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/99xt/gulp-dependency-install/issues"
+    },
+    "homepage": "https://github.com/99xt/gulp-dependency-install#readme",
+    "dependencies": {
+        "dependency-install": "^0.0.8",
+        "yargs": "^4.7.1"
+    }
+}
