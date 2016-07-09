@@ -59,11 +59,11 @@ You can use the Custom Dependencies feature.
 2. Open a package.json file in your code base which depends on a local dependency (lets say 'dependency-a' and 'dependency-b') and include the section 'customDependencies', as shown below.
     ```json
     {
-            "dependencies": {},
-            "dependencies": {
-                "dependency-a" : "local",
-                "dependency-b" : "local"
-            }
+        "dependencies": {},
+        "customDependencies": {
+            "dependency-a" : "local",
+            "dependency-b" : "local"
+        }
     }
     ```
     
