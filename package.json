@@ -4,7 +4,7 @@
     "description": "This gulp plugin provides a simple API to install dependencies in multiple nested package.json files. It also allows to define custom local dependencies inside package.json",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "nyc --reporter=html --reporter=text mocha"
     },
     "repository": {
         "type": "git",
@@ -35,5 +35,9 @@
     "dependencies": {
         "dependency-install": "^0.0.9",
         "yargs": "^4.7.1"
+    },
+    "devDependencies": {
+      "mocha": "3.5.0",
+      "nyc": "11.1.0"
     }
 }
