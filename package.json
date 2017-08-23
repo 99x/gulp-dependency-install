@@ -1,16 +1,16 @@
 {
-    "name": "gulp-dependency-install",
-    "version": "0.0.8",
-    "description": "This gulp plugin provides a simple API to install dependencies in multiple nested package.json files. It also allows to define custom local dependencies inside package.json",
-    "main": "index.js",
-    "scripts": {
-        "test": "nyc --reporter=html --reporter=text mocha"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/99xt/gulp-dependency-install.git"
-    },
-    "keywords": [
+  "name": "gulp-dependency-install",
+  "version": "0.0.8",
+  "description": "This gulp plugin provides a simple API to install dependencies in multiple nested package.json files. It also allows to define custom local dependencies inside package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/99xt/gulp-dependency-install.git"
+  },
+  "keywords": [
     "node",
     "dependency",
     "management",
@@ -26,18 +26,18 @@
     "custom",
     "custom dependencies"
   ],
-    "author": "99xtechnology.com",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/99xt/gulp-dependency-install/issues"
-    },
-    "homepage": "https://github.com/99xt/gulp-dependency-install#readme",
-    "dependencies": {
-        "dependency-install": "^0.0.9",
-        "yargs": "^4.7.1"
-    },
-    "devDependencies": {
-      "mocha": "3.5.0",
-      "nyc": "11.1.0"
-    }
+  "author": "99xtechnology.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/99xt/gulp-dependency-install/issues"
+  },
+  "homepage": "https://github.com/99xt/gulp-dependency-install#readme",
+  "dependencies": {
+    "dependency-install": "^0.0.9",
+    "yargs": "^4.7.1"
+  },
+  "devDependencies": {
+    "mocha": "3.5.0",
+    "nyc": "11.1.0"
+  }
 }
